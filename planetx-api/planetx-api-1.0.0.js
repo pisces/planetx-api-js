@@ -28,7 +28,6 @@
 		appKey: null,
 
 		call: function(options) {
-			console.log("call");
 			if (this.isEmpty(this.appKey)) {
 				options.completion(null, new Error(-1, "APP KEY IS UNDEFINED."));
 				return null;
